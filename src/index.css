@@ -233,6 +233,9 @@ h1 {
 .text-button:active {
 	color: #ffab04;
 }
+.center {
+	text-align: center;
+}
 
 .modal {
 	background-color: #e4ddd4;
@@ -259,4 +262,13 @@ h1 {
 		opacity: 1;
 		transform: translateY(0);
 	}
+}
+
+.error {
+	text-align: center;
+	background-color: rgb(212, 99, 99);
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
 }
